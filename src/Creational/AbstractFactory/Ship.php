@@ -1,13 +1,13 @@
 <?php
 
-namespace App\Creational\Factory;
+namespace App\Creational\AbstractFactory;
 
 use App\Creational\Factory\Interface\TransportInterface;
 
-class Truck implements TransportInterface
+class Ship implements TransportInterface
 {
     public function deliver(string $place): void
     {
-        echo "Deliver TruckA";
+        echo "Deliver Ship";
     }
 }
